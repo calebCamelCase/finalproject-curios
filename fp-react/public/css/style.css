@@ -1,0 +1,135 @@
+*{box-sizing: border-box;}
+
+:root{
+    --black: #0a0a0a;
+    --blue: #375BA9;
+    --orng: #FCA311;
+    --plat: #E5E5E5;
+    --white: #fff;
+    --primText: 'Major Mono Display', monospace;
+    --secText: 'Share Tech Mono', monospace;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 80vh;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+/* header */
+
+.header{
+    background: var(--black);
+    color: var(--plat);
+    border-bottom: 10px solid var(--blue);
+    box-shadow: 0 6px 6px var(--orng);
+}
+
+.title, .welcome{
+    font-family: var(--primText);
+}
+
+.title a{
+    text-decoration: none;
+    color: var(--plat);
+}
+
+.welcome{
+    font-size: 24px;
+}
+
+.nav-list{
+    font-family: var(--secText);
+    font-size: 20px;
+}
+
+.nav-list a{
+    color: var(--plat)
+}
+.nav-list a:hover{
+    color: #FCA311;
+}
+
+/* close header */
+
+/* main */
+
+.main{
+    margin-top: 12px;
+}
+
+.preview-section{
+    margin-block: 30px;
+}
+
+.product-row{
+    padding-block: 4px;
+}
+
+.curio-card{
+    border: 0; 
+}
+
+.signin-form{
+    border: 1px solid var(--plat);
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+
+.product{
+    color: var(--black)
+}
+
+.product-name, .related-product-header{
+    font-family: var(--secText);
+}
+
+.related-products-row{
+    margin-top: 60px;
+}
+
+.product-other{
+    margin-block: 10px;
+}
+
+.curio-info{
+    border-radius: 0;
+}
+
+.curio-info-type{
+    margin-block: 10px;
+    border: none;
+    box-shadow: 4px 4px 10px var(--blue);
+}
+
+/* close main */
+
+/* footer */
+
+.footer{
+    margin-top: 30px;
+    background: var(--black);
+    color: var(--plat);
+    border-top: 6px solid var(--blue);
+    box-shadow: 0 -2px 6px var(--orng);
+}
+
+.footnote-section{
+    padding-block: 20px;
+}
+
+.colophon-section{
+    border-top: 1px solid var(--orng);
+    margin-top: 30px;
+}
+
+.colophon{
+    font-family: var(--primText);
+}
