@@ -7,17 +7,18 @@ insert into curio (
     curio_image
 )
 values(
-    'dimension deduction dice',
-    99,
-    'nine six-sided dice make up this bizarre pyramidal device. it can continuously reduce the number of dimensions it occupies and exists in the 3-dimensional world as a purely 2-dimensional entity. no one knows who created it or why.',
-    22220222,
-    9,
-    'https://static.wikia.nocookie.net/houkai-star-rail/images/1/1d/Curio_Dimension_Reduction_Dice.png/revision/latest/150?cb=20230505005447'
+    'punklorde mentality',
+    94,
+    "Life is just a game — This sentence is no mere jest for hackers from the cyberworld Punklorde. They traverse the internet and use a technology known as aether editing to alter reality, making life into a great game. Occasionally, the cream of the crop among them gets to soar away from the planet and use the vast galaxy as the second stage beyond the tutorial area. This cassette tape records the story of a legendary hacker. His life began in Punklorde's underground water reservoirs and ended in the company of the Galaxy Rangers. It is said that the funeral was a quiet one, with only a game cassette silently lying atop the coffin, serving as a footnote of ""Finished the Game"" at the hacker's final rites.",
+    23400522,
+    4,
+    'https://starrailstation.com/assets/3e032b9ea50eebb05678dda7b587882819662f37a98632024f59f39e8b39b4b0.webp'
 );
 
 update curio
-set curio_name = 'dimension reduction dice'
-where curio_id = 1;
+set curio_image = 'https://starrailstation.com/assets/3f23912ba973864240f43fddac6282ef87095b3523a71c8ed6fc14d8ad734a93.webp'
+where curio_id = 2;
+
 
 /* values (
     'fruit of the alien tree',
@@ -27,5 +28,6 @@ where curio_id = 1;
     1,
     'https://static.wikia.nocookie.net/houkai-star-rail/images/f/f5/Curio_Fruit_of_the_Alien_Tree.png/revision/latest/150?cb=20230504074656',
     
+
 );
  */

@@ -23,11 +23,11 @@ export default function CurioPage() {
             <main className="main">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 curio-page">
                         <h2 className="product-name text-capitalize">{curio.curio_name}</h2>
                         <img src={curio.curio_image} alt={curio.curio_name} className="img-fluid placeholder-image product-img" />
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 curio-page">
                         <ul className="list-group curio-info">
                             <li className="list-group-item curio-info-type">${curio.curio_price}</li>
                             <li className="list-group-item curio-info-type">{curio.in_stock}</li>

@@ -13,7 +13,7 @@ export default function Login() {
                         <input type="email" name="sign-in-email" id="signInEmail" className="form-control" required />
                         <label htmlFor="signInPassword" className="form-label text-capitalize">password</label>
                         <input type="password" name="sign-in-password" id="signInPassword" className="form-control" required />
-                        <button type="submit" className="btn text-capitalize signin-btn">sign in</button>
+                        <button type="submit" className="btn btn-primary text-capitalize signin-btn">sign in</button>
                     </form>
                 </div>
             </div>

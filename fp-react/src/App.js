@@ -26,7 +26,6 @@ export default function App() {
 
         console.log(curioArr);
     
-    {/* <Home /> */}
     return(
         <>
         <Header />

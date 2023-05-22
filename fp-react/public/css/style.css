@@ -15,9 +15,9 @@ body{
     padding: 0;
 }
 
-main{
-    height: 80vh;
-}
+/* main{
+    height: 100vh;
+} */
 
 footer{
     margin-top: 10px;
@@ -62,11 +62,27 @@ footer{
 /* main */
 
 .main{
-    margin-top: 12px;
+    margin-block: 12px;
 }
 
 .preview-section{
     margin-block: 30px;
+}
+
+.preview-box{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid #000; */
+}
+
+
+.greeting-primary{
+    font-family: var(--secText);
+}
+
+.greeting-secondary{
+    padding-block: 100px;
+    font-family: var(--primText);
 }
 
 .product-row{
@@ -74,7 +90,8 @@ footer{
 }
 
 .curio-card{
-    border: 0; 
+    border: 0;
+    font-family: var(--secText);
 }
 
 .signin-form{
@@ -99,6 +116,10 @@ footer{
     margin-block: 10px;
 }
 
+.curio-page{
+    height: 60vh;
+}
+
 .curio-info{
     border-radius: 0;
 }
@@ -115,6 +136,7 @@ footer{
 
 .footer{
     margin-top: 30px;
+    padding-block: 21px;
     background: var(--black);
     color: var(--plat);
     border-top: 6px solid var(--blue);
@@ -132,4 +154,14 @@ footer{
 
 .colophon{
     font-family: var(--primText);
+}
+
+.logo{
+    /* padding-block: 50px; */
+    font-family: var(--primText);
+    font-size: 100px;
+}
+
+.signin-btn{
+    margin-block: 10px;
 }

@@ -4,9 +4,17 @@ export default function Home() {
             <main className="main " >
                 <div className="container">
                     <section className="row justify-content-around preview-section">
-                        <div className="col-md-3 d-flex justify-content-center"><img src="https://via.placeholder.com/300x300" alt="placeholder" className="img-fluid placeholder-image" /></div>
-                        <div className="col-md-3 d-none d-sm-block"><img src="https://via.placeholder.com/300x300" alt="placeholder" className="img-fluid placeholder-image" /></div>
-                        <div className="col-md-3 d-none d-sm-block"><img src="https://via.placeholder.com/300x300" alt="placeholder" className="img-fluid placeholder-image" /></div>
+                        <div className="col-md-3 preview-box d-none d-sm-block">
+                        <p className="greeting greeting-secondary text-uppercase h1 d-flex justify-content-center">curio</p>
+                        </div>
+                        <div className="col-md-3 preview-box d-flex justify-content-center">
+                        <p className="greeting greeting-primary text-capitalize h2 d-flex justify-content-center">welcome to the
+                            <span className="d-md-none greeting greeting-secondary text-uppercase h1 p-0 d-flex justify-content-center">curio comporium</span>
+                        </p>
+                        </div>
+                        <div className="col-md-3 preview-box d-none d-sm-block">
+                        <p className="greeting greeting-secondary text-uppercase h1 d-flex justify-content-center">comporium</p>
+                        </div>
                     </section>
                     <section className="row intro-section">
                         <div className="col">
